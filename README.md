@@ -1,2 +1,122 @@
 # David-
 About car modification 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Online Business</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .box {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>WELCOME TO MY ONLINE BUSINESS</h1>
+    <p>Simple | Fast | Reliable Service</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <div class="box">
+        <h2>Home</h2>
+        <p>Welcome to my online business website. We provide quality services at affordable prices.</p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="box">
+        <h2>Services</h2>
+        <p>✔ Digital services</p>
+        <p>✔ Online assistance</p>
+        <p>✔ Business solutions</p>
+        <p>✔ Fast delivery of services</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="box">
+        <h2>Contact</h2>
+        <p>You can reach us through email:</p>
+        <p><b>mybusiness@email.com</b></p>
+        <button onclick="alert('Thanks for contacting us! We will reply soon.')">
+            Send Message
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Online Business. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
